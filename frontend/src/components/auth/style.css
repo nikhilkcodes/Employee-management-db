@@ -1,0 +1,124 @@
+body {
+	display: flex;
+	height: 100vh;
+	margin: 0;
+  }
+  .body-background {
+	background-color: #1fabac;
+  }
+
+  h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	color: #505871;
+  }
+
+  .img-class img {
+	width: 150px;
+	height: 150px;
+  }
+
+  .sign-card {
+	width: 180px; /* Adjust width as needed */
+	height: 70px; /* Adjust height as needed */
+	border: 1px solid #333;
+	background-color: #02f5e1;
+	position: absolute;
+	top: -35px; /* Adjust this value as needed to position it above the middle */
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1; /* Ensure .sign-card appears above .body-card */
+	padding: 10px; /* Adjust padding as needed */
+	box-sizing: border-box; /* Include padding in total width and height */
+	transition: transform 0.3s ease-in-out;
+  }
+  .sign-card:hover {
+	transform: translateX(-50%) scale(1.2);
+  }
+
+  .body-card {
+	width: 30rem;
+	height: 38rem;
+	border: 1px solid #333;
+	padding: 0px 50px;
+	border-radius: 10px;
+	background-color: #283150;
+	position: relative;
+	z-index: 0; /* Default z-index value */
+  }
+  .signup-card {
+	width: 30rem;
+	height: 50rem;
+	border: 1px solid #333;
+	padding: 0px 50px;
+	border-radius: 10px;
+	background-color: #283150;
+	position: relative;
+	z-index: 0;
+  }
+
+
+  form {
+	display: flex;
+	flex-direction: column;
+  }
+
+  .label-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+  }
+
+  label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 15px;
+  }
+
+  input[type='name'],
+  input[type='date'],
+  input[type='file'],
+  input[type='email'],
+  input[type='password'] {
+	background-color: #525973;
+	flex: 1;
+	font-size: 20px;
+	padding: 15px;
+	margin-bottom: 0.5rem;
+	border: 1px solid #525973;
+	border-radius: 10px;
+  }
+  input[type='name']::placeholder,
+  input[type='date'],
+  input[type='email']::placeholder,
+  input[type='password']::placeholder {
+	color: #a2aac3;
+  }
+
+  input[type='submit'] {
+	font-size: 20px;
+	padding: 1rem;
+	background-color: #02f5e1;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #505871;
+  }
+
+  input[type='submit']:hover {
+	background-color: #1f8e95;
+  }
+
+  a {
+	color: #1bbeb9;
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+  }
+  label {
+	color: #1bbeb9;
+  }
+
+  a:hover {
+	text-decoration: underline;
+  }
