@@ -1,57 +1,79 @@
+<div align='center'>
 
-This repository contains a MERN (MongoDB, Express.js, React.js, Node.js) project with separate folders for the frontend and backend. Follow the instructions below to set up and run both the frontend and backend parts of the project.
+<p>Welcome to the MERN (MongoDB, Express, React, Node.js) project! This project is set up with environment variables for both the frontend and backend. The frontend is built using React with Vite, and the backend is powered by Express, running on port 8000.</p>
 
-Prerequisites
-Make sure you have the following software installed on your machine:
+<h4> <a href=https://www.loom.com/share/15476fe1bb284f22963691a9f525ab75?sid=acd8c1fa-2d80-48a1-8487-b966d4f39fc0>View Demo</a> <span> · </span> <a href="https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase/issues"> Request Feature </a> </h4>
 
-Node.js: Download and install Node.js
-MongoDB: Download and install MongoDB
-Frontend Setup
-Open a terminal in the frontend folder.
 
-Install dependencies using the following command:
+</div>
 
-bash
-Copy code
-npm install
-Create a .env file in the frontend folder with the following content:
+# :notebook_with_decorative_cover: Table of Contents
 
-env
-Copy code
-REACT_APP_API_URL=http://localhost:5000
-Adjust the REACT_APP_API_URL variable if your backend server runs on a different port.
+- [About the Project](#star2-about-the-project)
+- [Contact](#handshake-contact)
 
-Run the development server with the following command:
 
-bash
-Copy code
+## :star2: About the Project
+
+### :dart: Features
+- login
+- signup and upload images
+- logout
+
+
+### :key: Environment Variables
+To run this project, you will need to add the following environment variables to your .env file
+`PORT`
+
+`MONGO_URL`
+
+`AXIOS_BASE_URL`
+
+`CLOUDINARY_API_KEY`
+
+`CLOUDINARY_UPLOAD_URL`
+
+`CLOUDINARY_UPLOAD_PRESET`
+
+`CLOUDINARY_DELETE_URL`
+
+
+
+## :toolbox: Getting Started
+
+### :bangbang: Prerequisites
+
+- node.js
+
+
+### :running: Run Locally
+
+Clone the project
+
+```bash
+https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase
+```
+cd Quantum-it-innovation-project-showcase
+open terminal
+```bash
+cd frontend
+```
+start the project
+```bash
 npm run dev
-This will start the React development server. Open your browser and go to http://localhost:3000 to view the application.
-
-Backend Setup
-Open a terminal in the backend folder.
-
-Install dependencies using the following command:
-
-bash
-Copy code
-npm install
-Create a .env file in the backend folder with the following content:
-
-env
-Copy code
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/your-database-name
-Adjust the PORT and MONGODB_URI variables as needed.
-
-Run the backend server with the following command:
-
-bash
-Copy code
+```
+open another terminal and go into backend folder
+```bash
+cd backend
+```
+start the server
+```bash
 npm start
-The backend server will start, and it will be accessible at http://localhost:5000.
+```
 
-Project Structure
-frontend: Contains the React.js frontend code.
-backend: Contains the Node.js and Express.js backend code.
-Feel free to modify and extend the codebase according to your project requirements. Enjoy building with the MERN stack!
+
+## :handshake: Contact
+
+Nikhil Singh - - nikhilsingh.cc@gmail.com
+
+Project Link: [https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase](https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase)
