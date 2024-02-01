@@ -19,6 +19,16 @@
 - login
 - signup and upload images
 - logout
+## 🖼️ Screenshots
+ # : Login page
+![Screenshot (97)](https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase/assets/86142267/77db3cb3-e2e3-4aa3-afd4-66551bd6eac6)
+
+# : Signup page
+
+![Screenshot (100)](https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase/assets/86142267/7f565c8d-ca02-47ff-a12b-a94ef2ffab8c)
+
+# : Dashboard
+![Screenshot (99)](https://github.com/nikhilkcodes/Quantum-it-innovation-project-showcase/assets/86142267/4e69ca37-4a3d-42d9-b0bc-56af3ec39a81)
 
 
 ### :key: Environment Variables
